@@ -21,7 +21,7 @@ jobs:
         run: pip install pipenv --user
       - name: Setup Python virtual environment
         run: |
-          PATH=$PATH:/home/7pub/.local/bin
+          PATH=$PATH:/home/theoreme/.local/bin
           pipenv install
       - name: Run Follower bot
         run: |
